@@ -10,16 +10,37 @@
  
     <script src="assets/javascript/game.js"></script>
 </head>
-<body>
+<body style="background-color: black">
     
-<div>
-    <p id="directions-text">a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z</p>
-    <p id="userchoice-text"></p>
-    <p id="computerchoice-text"></p>
-    <p id="wins-text"></p>
-    <p id="losses-text"></p>
-    <p id="ties-text"></p>
+
+<div id="top">
+    <header id="gameheader">
+        <h1>Psychic Game</h1>
+    </header>
 </div>
+    
+<div id="container">
+    
+    <div class="middle">
+        <img src="assets/images/riddler_chase_must_crop.jpg" alt="riddler" id="riddler">
+    </div>
+      
+    <div class="middle">
+        <div id="hide">
+            <p>Directions</p>
+            <p id="directions-text">a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z</p>
+        </div>
+            <p style="color:black;">Guesses</p>
+            <p id="guesses-text"></p>
+            <p style="color:black;">Guesses Left</p>
+            <p id="guessesLeft-text">10</p>
+            <p id="computerchoice-text"></p>
+            <p style="color:black;">Wins</p>
+            <p id="wins-text">0</p>
+            <p style="color:black;">Losses</p>
+            <p id="losses-text">0</p>
+    </div>
+    </div>
 
 </body>
 </html>
